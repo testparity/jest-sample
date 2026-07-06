@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "globalPercent": 80,
+  "files": [
+    {
+      "path": "code/src/sum.js",
+      "coveragePercent": 70,
+      "totalExecutableLines": 10,
+      "lines": [
+        {
+          "line": 1,
+          "coveredBy": [
+            "sum.test::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 2,
+          "coveredBy": [
+            "sum.test::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 3,
+          "coveredBy": [
+            "sum.test::coversPrimaryBehavior",
+            "sumIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 4,
+          "coveredBy": [
+            "sum.test::coversPrimaryBehavior",
+            "sumIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 5,
+          "coveredBy": [
+            "sumIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 6,
+          "coveredBy": [
+            "sumIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 7,
+          "coveredBy": [
+            "sumIntegrationTest::coversThroughPublicWorkflow",
+            "sumSmokeTest::coversBootstrapPath"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "code/src/discount.js",
+      "coveragePercent": 90,
+      "totalExecutableLines": 10,
+      "lines": [
+        {
+          "line": 1,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 2,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 3,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior",
+            "discountIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 4,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior",
+            "discountIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 5,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior",
+            "discountIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 6,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior",
+            "discountIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 7,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior",
+            "discountIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 8,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior",
+            "discountIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 9,
+          "coveredBy": [
+            "discount.test::coversPrimaryBehavior",
+            "discountIntegrationTest::coversThroughPublicWorkflow",
+            "discountSmokeTest::coversBootstrapPath"
+          ]
+        }
+      ]
+    }
+  ]
+}
