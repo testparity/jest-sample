@@ -1,5 +1,7 @@
 # Jest Sample
 
+[![Parity Sample](https://github.com/testparity/jest-sample/actions/workflows/parity.yml/badge.svg)](https://github.com/testparity/jest-sample/actions/workflows/parity.yml)
+
 This repository is a focused Parity demo for Jest. It intentionally separates aggregate file coverage from matching-test coverage, which is the core Parity use case.
 
 ## What this sample proves
