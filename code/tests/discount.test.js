@@ -1,7 +1,10 @@
 const { applyDiscount } = require('../src/discount')
+const { maximum, product, quotient } = require('../src/sum')
 
 describe('applyDiscount', () => {
   it('applies the standard discount', () => {
-    expect(applyDiscount(100)).toBe(90)
+    const subtotal = maximum(product(5, 20), quotient(100, 2))
+
+    expect(applyDiscount(subtotal)).toBe(90)
   })
 })
